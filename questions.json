@@ -1,0 +1,202 @@
+[
+  {
+    "q": "Mô hình ngôn ngữ lớn (LLMs) được xây dựng chủ yếu để thực hiện chức năng nào?",
+    "options": [
+      "Hiểu và tạo ra ngôn ngữ tự nhiên",
+      "Chỉ lưu trữ hình ảnh và video",
+      "Tự động sửa chữa phần cứng máy tính",
+      "Thay thế hoàn toàn hệ điều hành"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "LLMs thường tạo văn bản bằng cách nào?",
+    "options": [
+      "Tra cứu duy nhất một câu trả lời có sẵn",
+      "Dự đoán từ hoặc thành phần tiếp theo dựa trên ngữ cảnh",
+      "Chọn ngẫu nhiên các từ trong từ điển",
+      "Sao chép nguyên văn toàn bộ dữ liệu huấn luyện"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Nhận định nào đúng về thông tin do GenAI tạo ra?",
+    "options": [
+      "Thông tin luôn chính xác vì mô hình đã được huấn luyện",
+      "Thông tin không cần kiểm tra nếu prompt rõ ràng",
+      "Khả năng tạo văn bản không đồng nghĩa mọi thông tin đều chính xác",
+      "Chỉ mô hình nhỏ mới có thể tạo thông tin sai"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Dữ liệu huấn luyện chính xác, phong phú và có nhiều ngữ cảnh thường giúp mô hình như thế nào?",
+    "options": [
+      "Tạo kết quả phù hợp hơn",
+      "Không cần prompt",
+      "Luôn trả lời tức thì",
+      "Không cần kiểm chứng đầu ra"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "So với mô hình nhỏ, mô hình lớn thường có đặc điểm nào được nêu trong tài liệu?",
+    "options": [
+      "Luôn nhanh và tiết kiệm tài nguyên hơn",
+      "Chỉ xử lý được phép tính đơn giản",
+      "Không cần dữ liệu huấn luyện",
+      "Có khả năng tạo câu trả lời phong phú, chi tiết hơn nhưng có thể tốn nhiều tài nguyên và chi phí"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Yếu tố nào sau đây giúp prompt định hướng kết quả rõ hơn?",
+    "options": [
+      "Dùng càng ít thông tin càng tốt trong mọi trường hợp",
+      "Không nêu đối tượng sử dụng",
+      "Chỉ viết một chủ đề thật chung chung",
+      "Nêu nhiệm vụ, ngữ cảnh, mục tiêu và yêu cầu đầu ra"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Trong khung CRAC, thành phần Role có nghĩa là gì?",
+    "options": [
+      "Bối cảnh",
+      "Vai trò mà mô hình cần đảm nhận",
+      "Hành động cần thực hiện",
+      "Tiêu chí đầu ra"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Kỹ thuật Zero-shot là cách viết prompt như thế nào?",
+    "options": [
+      "Cung cấp nhiều ví dụ mẫu trước nhiệm vụ",
+      "Đưa yêu cầu trực tiếp mà không cung cấp ví dụ mẫu trước",
+      "Chỉ gửi hình ảnh, không có yêu cầu",
+      "Yêu cầu mô hình tự chọn chủ đề"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Kỹ thuật Few-shot có đặc điểm nào?",
+    "options": [
+      "Cung cấp một số ví dụ mẫu để mô hình nhận biết cách làm hoặc định dạng mong muốn",
+      "Không đưa ví dụ nào vào prompt",
+      "Chỉ dùng cho phép tính số học",
+      "Luôn làm prompt ngắn hơn"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Một hạn chế của kỹ thuật Few-shot là gì?",
+    "options": [
+      "Không thể định hướng định dạng đầu ra",
+      "Không dùng được với nhiệm vụ có quy tắc riêng",
+      "Prompt dài hơn và cần lựa chọn ví dụ phù hợp",
+      "Luôn tạo kết quả không nhất quán"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Theo tài liệu, công cụ nào phù hợp để soạn kế hoạch bài dạy, tạo câu hỏi trắc nghiệm và đóng vai trợ giảng gợi mở sửa lỗi code?",
+    "options": [
+      "ChatGPT",
+      "Suno AI",
+      "ElevenLabs",
+      "Google Veo 3"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Thế mạnh nổi bật được nêu của Gemini là gì?",
+    "options": [
+      "Tạo giọng nói và nhân bản giọng nói",
+      "Mô phỏng thuật toán bằng Artifacts",
+      "Sinh nhạc từ văn bản",
+      "Xử lý đa phương thức với cửa sổ ngữ cảnh lớn và kết nối Google Workspace"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Công cụ nào tích hợp với Microsoft Office 365 và VS Code, hỗ trợ chuyển giáo án Word thành PowerPoint và gợi ý mã nguồn?",
+    "options": [
+      "Perplexity AI",
+      "Copilot",
+      "Nano Banana",
+      "Suno AI"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Theo tài liệu, DeepSeek phù hợp nổi bật với nhiệm vụ nào trong sư phạm Tin học?",
+    "options": [
+      "Tạo bài hát khởi động",
+      "Nhân bản giọng giáo viên",
+      "Phân tích thuật toán, sinh bộ test và hỗ trợ suy luận toán học/lập trình",
+      "Tạo video có âm thanh môi trường"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Khi cần tra cứu văn bản, thông tư mới và số liệu có trích dẫn nguồn rõ ràng, nên ưu tiên công cụ nào?",
+    "options": [
+      "Perplexity AI",
+      "Claude",
+      "ElevenLabs",
+      "Nano Banana"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Claude với môi trường Artifacts được tài liệu nhấn mạnh ở khả năng nào?",
+    "options": [
+      "Tạo và chỉnh sửa ảnh giữ khuôn mặt nhất quán",
+      "Chạy thử ứng dụng Web/HTML/JS/React và tạo mô phỏng tương tác",
+      "Tìm kiếm văn bản pháp luật thời gian thực",
+      "Chuyển văn bản thành giọng nói"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Công cụ nào chuyên chuyển văn bản thành bài hát hoàn chỉnh, gồm giai điệu, phối khí và giọng hát?",
+    "options": [
+      "ChatGPT",
+      "DeepSeek",
+      "Copilot",
+      "Suno AI"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "ElevenLabs được sử dụng phù hợp nhất cho công việc nào sau đây?",
+    "options": [
+      "Tạo video 3D mô phỏng luồng dữ liệu",
+      "Tra cứu thông tư có trích dẫn",
+      "Chuyển văn bản thành giọng nói và nhân bản giọng nói",
+      "Tạo bộ câu hỏi trắc nghiệm"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Theo tài liệu, Google Veo 3 có thế mạnh nào?",
+    "options": [
+      "Tạo video từ văn bản hoặc hình ảnh, có thể đồng bộ âm thanh môi trường và lời thoại",
+      "Tạo bảng tính và công thức Excel",
+      "Tạo giọng đọc thuyết minh từ văn bản",
+      "Tạo mô hình ngôn ngữ lớn"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Trong quy trình phối hợp công cụ cho một tiết dạy Tin học, công cụ nào được dùng để tra cứu văn bản và số liệu mới ở khâu chuẩn bị kế hoạch bài dạy?",
+    "options": [
+      "Claude",
+      "ElevenLabs",
+      "Perplexity AI",
+      "Suno AI"
+    ],
+    "correct": 2
+  }
+]
